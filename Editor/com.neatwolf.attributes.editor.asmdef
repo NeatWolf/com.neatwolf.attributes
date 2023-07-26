@@ -2,7 +2,7 @@
     "name": "com.neatwolf.attributes.editor",
     "rootNamespace": "NeatWolf.Attributes",
     "references": [
-    ],
+    "GUID:06ff1fcf04219484aba46a932210a95a"],
     "includePlatforms": [
         "Editor"
     ],
