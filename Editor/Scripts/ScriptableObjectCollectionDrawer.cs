@@ -45,11 +45,8 @@ namespace NeatWolf.Attributes
             currentIndex = EditorGUI.Popup(position, label.text, currentIndex, assetNames);
 
             // Assign the selected object from the dropdown to the property
-            try
-            {
+            if (currentIndex < assetObjects.Length)
                 property.objectReferenceValue = assetObjects[currentIndex];
-            }
-            finally{}
         }
     }
 }
